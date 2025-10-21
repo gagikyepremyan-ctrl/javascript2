@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Open Brewery Explorer</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="app-header">
+            <h1>Open Brewery Explorer</h1>
+            <div class="controls">
+                <input id="search" placeholder="Search by name, city or state" />
+                <select id="typeFilter">
+                    <option value="">All types</option>
+                </select>
+                <button id="refresh">Refresh</button>
+            </div>
+        </header>
+
+        <main class="container">
+            <section id="list" class="list"></section>
+            <aside id="detail" class="detail hidden">
+                <button id="closeDetail" class="close">Close</button>
+                <div id="detailContent"></div>
+            </aside>
+        </main>
+
+        <footer class="footer">Data from Open Brewery DB — https://www.openbrewerydb.org/</footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
