@@ -1,4 +1,4 @@
-const API_BASE = 'https://api.openbrewerydb.org/breweries';
+const API_BASE = 'https://api.openbrewerydb.org/v1/breweries';
 
 const listEl = document.getElementById('list');
 const detailEl = document.getElementById('detail');
